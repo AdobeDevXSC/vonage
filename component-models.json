@@ -201,14 +201,14 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "text",
+        "name": "button-text",
         "value": "",
         "label": "Button Text"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "title",
+        "name": "button-title",
         "value": "",
         "label": "Button Title"
       }
