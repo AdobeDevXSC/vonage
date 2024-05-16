@@ -9,7 +9,7 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-
+ 
 :root {
   /* colors */
   --link-color: #035fe6;
@@ -20,12 +20,12 @@
   --text-color: black;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: spezia, spezia_semimono, arial, helvetica, sans-serif;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
-  --body-font-size-m: 22px;
+  --body-font-size-m: 17px;
   --body-font-size-s: 18px;
   --body-font-size-xs: 16px;
 
@@ -39,6 +39,17 @@
 
   /* nav height */
   --nav-height: 64px;
+
+  /* body */
+  --body-max-width: 1225px;
+  --body-margin: auto; 
+
+  /* hero */
+  --hero-max-width: 600px;
+
+  /* cards */
+  --card-min-width: 298px;
+  --card-border-radius: 3.3rem;
 }
 
 @font-face {
@@ -50,10 +61,10 @@
 
 @media (width >= 900px) {
   :root {
-    --heading-font-size-xxl: 60px;
-    --heading-font-size-xl: 48px;
+    --heading-font-size-xxl: 44px;
+    --heading-font-size-xl: 38px;
     --heading-font-size-l: 36px;
-    --heading-font-size-m: 30px;
+    --heading-font-size-m: 19px;
     --heading-font-size-s: 24px;
     --heading-font-size-xs: 22px;
   }
@@ -61,12 +72,14 @@
 
 body {
   font-size: var(--body-font-size-m);
-  margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
+  max-width: var(--body-max-width);
+  margin: var(--body-margin);
+  font-weight: 400;
 }
 
 body.appear {
@@ -80,7 +93,7 @@ header {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: .5em;
@@ -93,6 +106,7 @@ h3 { font-size: var(--heading-font-size-l) }
 h4 { font-size: var(--heading-font-size-m) }
 h5 { font-size: var(--heading-font-size-s) }
 h6 { font-size: var(--heading-font-size-xs) }
+
 
 p, dl, ol, ul, pre, blockquote {
   margin-top: 1em;

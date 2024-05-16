@@ -9,7 +9,9 @@
 
 .cards > ul > li {
   border: 1px solid var(--dark-color);
-  background-color: var(--background-color)
+  background-color: var(--background-color);
+  min-width: var(--card-min-width);
+  border-radius: var(--card-border-radius);
 }
 
 .cards .cards-card-body {

@@ -4,6 +4,8 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  max-width: var(--body-max-width);
+  margin: var(--body-margin);
 }
 
 header nav {
