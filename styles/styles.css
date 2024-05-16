@@ -164,6 +164,23 @@ a.button:any-link, button {
   overflow: hidden;
   text-overflow: ellipsis;
   border-radius: 30px;
+
+  background: #000;
+  border-radius: 1rem;
+  border: 0 solid #000;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  height: 6rem;
+  padding: 0 2.5rem;
+  font-family: Spezia, Spezia_SemiMono, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  height: 60px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
