@@ -1,4 +1,5 @@
 export default function decorate(block) {
+  console.log(block);
   const title = block.querySelector('.hero > div:nth-child(2)');
   title.classList.add('hero-title');
 
