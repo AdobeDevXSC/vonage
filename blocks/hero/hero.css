@@ -1,6 +1,6 @@
 .hero > div {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   justify-content: space-between;
 }
 
@@ -38,3 +38,14 @@ main .hero-container {
 .hero .hero-content {
   max-width: var(--hero-max-width);
 }
+
+@media (width >= 768px) {
+  .hero > div {
+    flex-direction: row-reverse;
+  }
+
+  .hero .hero-content {
+    max-width: 364px;
+  }
+}
+

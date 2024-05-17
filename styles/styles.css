@@ -49,7 +49,7 @@
 
   /* cards */
   --card-min-width: 298px;
-  --card-border-radius: 3.3rem;
+  --card-border-radius: 33px;
 }
 
 @font-face {

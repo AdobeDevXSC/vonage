@@ -1,5 +1,6 @@
 export default function decorate(block) {
-  console.log(block.nextSibling);
+  const nextSib = block.parentElement.nextSibling;
+  const button = nextSib.querySelector('a');
   const title = block.querySelector('.hero > div:nth-child(2)');
   title.classList.add('hero-title');
 
@@ -10,6 +11,9 @@ export default function decorate(block) {
   content.classList.add('hero-content');
   content.appendChild(title);
   content.appendChild(description);
+  content.appendChild(button);
+
+  nextSib.remove();
 
   const div = block.querySelector('div');
   div.append(content);

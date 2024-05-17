@@ -1,17 +1,59 @@
-.cards > ul {
+.cards>ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
   grid-gap: 16px;
 }
 
-.cards > ul > li {
+.cards>ul>li {
   border: 1px solid var(--dark-color);
   background-color: var(--background-color);
   min-width: var(--card-min-width);
   border-radius: var(--card-border-radius);
+  filter: drop-shadow(8px 8px #F48591);
+  min-height: 350px;
+}
+
+[class*=" Vlt-icon-"],
+[class^="Vlt-icon-"] {
+  font-family: VltIcons !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: inherit;
+  speak: none;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Vlt-icon-card--cloud::before { /* eslint:disable-selector-class-pattern */
+  content: "\e908";
+}
+
+.Vlt-icon-card { /* eslint:disable-selector-class-pattern */
+  color: #fff;
+  display: block;
+  font-size: 4.2rem;
+  height: 4.1rem;
+  left: -.1rem;
+  position: absolute;
+  top: -1.3rem;
+  width: 4.1rem;
+}
+
+.hero-card__card-title-row { /* eslint:disable-selector-class-pattern */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+div.hero-cards__card-icon {    /* stylelint-disable-selector-class-pattern */
+  background: linear-gradient(135deg, #d41f9c, #ffa78c);
+  min-width: 4rem;
+  height: 4rem;
+  position: relative;
 }
 
 .cards .cards-card-body {
@@ -22,12 +64,18 @@
   line-height: 0;
 }
 
-.cards .cards-card-body > *:first-child {
+.cards .cards-card-body>*:first-child {
   margin-top: 0;
 }
 
-.cards > ul > li img {
+.cards>ul>li img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+@media (width >=768px) {
+  .cards>ul>li {
+    width: 100%;
+  }
 }
