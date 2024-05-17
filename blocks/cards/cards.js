@@ -12,10 +12,11 @@ export default function decorate(block) {
       if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image';
       else {
         const h4 = div.querySelector('h4');
+        const style = div.querySelector('p');
         if (h4) {
           const vltIcon = document.createElement('span');
           vltIcon.classList.add('Vlt-icon-card');
-          vltIcon.classList.add('Vlt-icon-card--cloud');
+          vltIcon.classList.add('Vlt-icon-card--');
 
           const divIcon = document.createElement('div');
           divIcon.classList.add('hero-cards__card-icon');
@@ -27,6 +28,13 @@ export default function decorate(block) {
           titleLine.appendChild(h4);
           titleLine.appendChild(divIcon);
           div.prepend(titleLine);
+        } else if(style) {
+          console.log(style)
+          const pSib = div.previousElementSibling;
+          const icon = pSib.querySelector('.Vlt-icon-card--');
+          icon.classList.remove('Vlt-icon-card--'); 
+          icon.classList.add(`Vlt-icon-card--${style.textContent}`);
+          div.remove();
         }
         div.className = 'cards-card-body';
       }

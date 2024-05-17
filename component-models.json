@@ -192,5 +192,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "highlight",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "callout",
+        "label": "Callout",
+        "value": ""
+      }
+    ]
   }
 ]
