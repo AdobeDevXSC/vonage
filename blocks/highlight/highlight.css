@@ -122,6 +122,7 @@ main .section.highlight-container .gradient {
 @media (min-width: 768px) {
   main .highlight>div>div {
     margin: 0 128px 0 0;
+    margin:auto;
   }
 }
 
