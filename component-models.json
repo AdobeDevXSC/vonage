@@ -197,25 +197,11 @@
     "id": "highlight",
     "fields": [
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "quote",
-        "label": "Quote",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "testimonial-name",
-        "label": "Testimonial Name",
-        "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "company",
-        "label": "Company",
-        "value": ""
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Testimonial",
+        "valueType": "string"
       }
     ]
   }

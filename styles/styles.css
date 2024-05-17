@@ -50,6 +50,13 @@
   /* cards */
   --card-min-width: 298px;
   --card-border-radius: 33px;
+
+  /* highlight block */
+  --highlight-width: 100%;
+  --highlight-height: 450px;
+  --highlight-background-color: #F48591;
+  --highlight-text-color: var(--background-color);
+  --highlight-slider-max-width: 1024px;
 }
 
 @font-face {
