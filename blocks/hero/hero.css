@@ -37,6 +37,7 @@ main .hero-container {
 
 .hero .hero-content {
   max-width: var(--hero-max-width);
+  max-width: 364px;
 }
 
 @media (width >= 768px) {
@@ -45,7 +46,7 @@ main .hero-container {
   }
 
   .hero .hero-content {
-    max-width: 364px;
+    max-width: 620px;
   }
 }
 

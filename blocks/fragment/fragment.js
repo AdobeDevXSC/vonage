@@ -19,6 +19,7 @@ import {
  */
 export async function loadFragment(path) {
   if (path && path.startsWith('/')) {
+    console.log(path);
     const resp = await fetch(`${path}.plain.html`);
     if (resp.ok) {
       const main = document.createElement('main');
