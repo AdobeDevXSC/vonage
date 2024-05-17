@@ -1,4 +1,4 @@
-main .highlight .slider > div {
+main .highlight .slider>div {
   text-align: center;
   color: var(--highlight-text-color);
   scroll-snap-align: start;
@@ -7,11 +7,22 @@ main .highlight .slider > div {
   transform: scale(1);
   transition: transform 0.5s;
   position: relative;
-  background-color: transparent;  
+  background-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+main .highlight {
+  color: #fff;
+}
+
+main .highlight>div>div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 main .section.highlight-container>div {
@@ -35,7 +46,7 @@ main .highlight .slider {
   display: flex;
   flex-direction: row;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;  
+  scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   margin: auto;
@@ -43,7 +54,7 @@ main .highlight .slider {
   overflow: hidden;
 }
 
-main .highlight > a {
+main .highlight>a {
   display: inline-flex;
   width: .7rem;
   height: .7rem;
@@ -56,19 +67,19 @@ main .highlight > a {
   position: relative;
 }
 
-main .highlight > a:active {
+main .highlight>a:active {
   top: 1px;
 }
 
-main .highlight > a:focus {
+main .highlight>a:focus {
   background: var(--link-hover-color);
 }
 
-main .highlight > a:current {
+main .highlight>a:current {
   background-color: var(--link-selected-color);
 }
 
-main .highlight > a:hover {
+main .highlight>a:hover {
   background: var(--link-hover-color);
 }
 
@@ -122,12 +133,12 @@ main .section.highlight-container .gradient {
 @media (min-width: 768px) {
   main .highlight>div>div {
     margin: 0 128px 0 0;
-    margin:auto;
+    margin: auto;
   }
 }
 
 @media (min-width: 1024px) {
   main .highlight>div {
-    margin: 0 50px ;
+    margin: 0 50px;
   }
 }
