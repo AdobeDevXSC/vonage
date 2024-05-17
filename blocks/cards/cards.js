@@ -28,11 +28,10 @@ export default function decorate(block) {
           titleLine.appendChild(h4);
           titleLine.appendChild(divIcon);
           div.prepend(titleLine);
-        } else if(style) {
-          console.log(style)
+        } else if (style) {
           const pSib = div.previousElementSibling;
           const icon = pSib.querySelector('.Vlt-icon-card--');
-          icon.classList.remove('Vlt-icon-card--'); 
+          icon.classList.remove('Vlt-icon-card--');
           icon.classList.add(`Vlt-icon-card--${style.textContent}`);
           div.remove();
         }

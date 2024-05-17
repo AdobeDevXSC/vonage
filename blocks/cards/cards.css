@@ -1,3 +1,4 @@
+/* stylelint-disable */
 .cards>ul {
   list-style: none;
   margin: 0;
@@ -29,7 +30,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.Vlt-icon-card--cloud::before { /* eslint:disable-selector-class-pattern */
+.Vlt-icon-card--cloud::before { /* eslint-disable-line selector-class-pattern */
   content: "\e908";
 }
 

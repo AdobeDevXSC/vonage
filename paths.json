@@ -1,6 +1,7 @@
 {
   "mappings": [
     "/content/vonage/:/",
-    "/content/vonage/configuration:/.helix/config.json"
+    "/content/vonage/configuration:/.helix/config.json",
+    "/content/vonage/metadata:/metadata.json"
   ]
 }
