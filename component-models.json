@@ -199,8 +199,22 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "callout",
-        "label": "Callout",
+        "name": "quote",
+        "label": "Quote",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "name",
+        "label": "Name",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "company",
+        "label": "Company",
         "value": ""
       }
     ]

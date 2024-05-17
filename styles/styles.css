@@ -148,32 +148,21 @@ a:hover {
 /* buttons */
 a.button:any-link, button {
   font-family: var(--body-font-family);
-  display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
-  border: 2px solid transparent;
-  padding: 5px 30px;
   text-align: center;
   font-style: normal;
-  font-weight: 600;
   cursor: pointer;
-  color: var(--background-color);
-  background-color: var(--link-color);
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
-
   background: #000;
   border-radius: 1rem;
   border: 0 solid #000;
   color: #fff;
-  cursor: pointer;
   display: inline-block;
-  height: 6rem;
   padding: 0 2.5rem;
-  font-family: Spezia, Spezia_SemiMono, Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: normal;
