@@ -200,8 +200,15 @@
         "component": "richtext",
         "name": "text",
         "value": "",
-        "label": "Testimonial",
+        "label": "Title",
         "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Logo",
+        "multi": true
       }
     ]
   }
