@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p124331-e1227315.adobeaemcloud.com/bin/franklin.delivery/lamontacrook/vonage/main"
+    url: "https://author-p124903-e1367755.adobeaemcloud.com/bin/franklin.delivery/AdobeDevXSC/vonage/main"
     type: "markup"
     suffix: ".html"
