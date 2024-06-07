@@ -38,7 +38,7 @@
     ]
   },
   {
-    "id": "hightlight",
+    "id": "highlight",
     "components": [
       "image",
       "title"

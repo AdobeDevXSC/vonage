@@ -19,11 +19,11 @@ main .highlight {
 }
 
 main .highlight > div:first-child > div {
-  background-color: red;
+  
 }
 
 main .highlight > div:last-child > div {
-  background-color: blue;
+  
 }
 
 main .highlight h3 {
@@ -47,9 +47,9 @@ main .section.highlight-container {
 }
 
 main .highlight {
-  /* position: relative; */
-  /* height: var(--highlight-height); */
-  /* text-align: center; */
+  position: relative;
+  height: var(--highlight-height);
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
