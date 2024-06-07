@@ -161,14 +161,14 @@
     ]
   },
   {
-    "id": "hero",
+    "id": "highlight",
     "fields": [
       {
         "component": "text",
         "valueType": "string",
-        "name": "text",
+        "name": "title",
         "label": "Title",
-        "multi": false
+        "value": ""
       }
     ]
   },
