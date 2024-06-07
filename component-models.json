@@ -164,6 +164,18 @@
     "id": "hero",
     "fields": [
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Title",
+        "multi": false
+      }
+    ]
+  },
+  {
+    "id": "hero",
+    "fields": [
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
