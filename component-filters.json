@@ -36,5 +36,12 @@
     "components": [
       "card"
     ]
+  },
+  {
+    "id": "hightlight",
+    "components": [
+      "image",
+      "title"
+    ]
   }
 ]

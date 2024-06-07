@@ -192,24 +192,5 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-    "id": "highlight",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Title",
-        "valueType": "string"
-      },
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Logo",
-        "multi": true
-      }
-    ]
   }
 ]
