@@ -7,7 +7,7 @@ export default function decorate(block) {
   const description = block.querySelector('.hero > div:nth-child(3)');
   description.classList.add('hero-description');
 
-  const nikhiltest = block.querySelector('.hero > div:nth-child(3)');
+  const nikhiltest = block.querySelector('.hero > div:nth-child(4)');
   nikhiltest.classList.add('nikhil-description');
 
   const content = document.createElement('div');
